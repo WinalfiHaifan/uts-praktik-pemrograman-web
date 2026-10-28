@@ -1,0 +1,17 @@
+# Kredensial lokal dan variabel lingkungan.
+/config.local.php
+/.env
+/.env.*
+!/.env.example
+
+# Foto mahasiswa dan hasil ekspor pribadi tidak dipublikasikan.
+/uploads/*
+!/uploads/.gitkeep
+/private-backup/
+*_lengkap.sql
+
+# Berkas sementara editor dan sistem.
+*.log
+*.bak
+.DS_Store
+Thumbs.db
